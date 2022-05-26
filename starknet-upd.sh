@@ -17,4 +17,3 @@ systemctl restart starknetd
 echo -e "\n\033[0;94mНода успішно оновлена до актуальної версії!"
 echo -e "\033[0;93mПоточна версія ноди:"
 pathfinder -V
-rm $0
