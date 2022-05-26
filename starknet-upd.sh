@@ -1,4 +1,5 @@
 #!/bin/bash
+curl -s https://raw.githubusercontent.com/f5nodes/logo/main/logo-shark.sh | bash
 cd ~/pathfinder
 git fetch
 git checkout v0.1.11-alpha
