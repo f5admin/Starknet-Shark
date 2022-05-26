@@ -1,5 +1,9 @@
 #!/bin/bash
 curl -s https://raw.githubusercontent.com/f5nodes/logo/main/logo-shark.sh | bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustup update stable
+rustc -V
 cd ~/pathfinder
 git fetch
 git checkout v0.1.11-alpha
